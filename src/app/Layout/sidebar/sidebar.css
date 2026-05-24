@@ -1,0 +1,43 @@
+/* Sidebar básico */
+.sidebar {
+    background-color: #0cafa7;   /* mismo color que header */
+    width: 200px;
+    padding: 15px;
+    border-right: 3px solid #087f78;
+    height: 100vh;
+}
+
+/* Lista de enlaces */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff1f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover */
+.sidebar a:hover {
+    background-color: #087f78;
+    color: #ffffff;
+}
+
+/* Activo */
+.sidebar a.active {
+    background-color: #c5d02a;
+    color: #000000;
+    font-weight: bold;
+}

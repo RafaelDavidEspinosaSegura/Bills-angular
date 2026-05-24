@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Sibebar } from './sibebar';
+import { Sibebar } from './sidebar';
 
 describe('Sibebar', () => {
   let component: Sibebar;
